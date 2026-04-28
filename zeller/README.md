@@ -7,7 +7,6 @@ Para que serve?
 
 Onde:
 ```
-
 q = dia
 m = mês
 K = ano do século (ano mod 100)
