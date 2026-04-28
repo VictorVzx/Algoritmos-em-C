@@ -28,6 +28,12 @@ int main(void){
     printf("Enter the day, month and year respectively: ");
     scanf("%d %d %d", &day, &month, &year);
 
+    if(day > 31){
+        printf("Day cant be above 31\n");
+
+        return 1;
+    }
+
     if(day < 1 || month < 1 || year < 1){
         printf("Day, month or year cant be above 1\n");
         return 1;
