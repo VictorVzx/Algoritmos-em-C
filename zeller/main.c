@@ -35,7 +35,7 @@ int main(void){
     }
 
     if(day < 1 || month < 1 || year < 1){
-        printf("Day, month or year cant be above 1\n");
+        printf("Day, month or year cant be under 1\n");
         return 1;
     }
 
