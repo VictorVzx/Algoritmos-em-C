@@ -18,10 +18,10 @@ int main(void){
 
         if(nums[i] > maior){
             maior = nums[i];
-            pos1 = i + 1;
+            pos1 = i;
         }else if(nums[i] == 0 || nums[i] < menor){
             menor = nums[i];
-            pos2 = i + 1;
+            pos2 = i;
         }
     }
 
