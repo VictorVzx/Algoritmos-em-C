@@ -26,6 +26,9 @@ int main(void){
             printf("%d achado em: %d\n", value, i);
         }
     }
+    if(achou == 0){
+        printf("Não foi possivel encontrar o valor %d\n", value);
+    }
 
     return 0;
 }
