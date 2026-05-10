@@ -21,6 +21,8 @@ int main(void){
 
 
     } while(n != -1);
+    
+    printf("Hi");
 
     return 0;
 }
